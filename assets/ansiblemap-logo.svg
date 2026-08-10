@@ -1,0 +1,29 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AnsibleMap logo">
+  <title>AnsibleMap</title>
+
+  <g fill="none" fill-rule="evenodd">
+    <text x="0" y="178" font-family="Arial, Helvetica, sans-serif" font-size="170" font-weight="700" fill="#1b5e20">AnsibleMap</text>
+
+    <g transform="translate(1020,40)">
+      <circle cx="90" cy="90" r="78" stroke="#2e7d32" stroke-width="10"/>
+
+      <line x1="90" y1="90" x2="51" y2="51" stroke="#43a047" stroke-width="8"/>
+      <line x1="90" y1="90" x2="129" y2="51" stroke="#43a047" stroke-width="8"/>
+      <line x1="90" y1="90" x2="129" y2="129" stroke="#43a047" stroke-width="8"/>
+      <line x1="90" y1="90" x2="51" y2="129" stroke="#43a047" stroke-width="8"/>
+
+      <line x1="51" y1="51" x2="129" y2="51" stroke="#81c784" stroke-width="6"/>
+      <line x1="129" y1="129" x2="51" y2="129" stroke="#81c784" stroke-width="6"/>
+
+      <circle cx="90" cy="90" r="15" fill="#1b5e20"/>
+      <circle cx="51" cy="51" r="10" fill="#2e7d32"/>
+      <circle cx="129" cy="51" r="10" fill="#2e7d32"/>
+      <circle cx="129" cy="129" r="10" fill="#2e7d32"/>
+      <circle cx="51" cy="129" r="10" fill="#2e7d32"/>
+
+      <circle cx="66" cy="40" r="4" fill="#81c784"/>
+      <circle cx="142" cy="76" r="4" fill="#81c784"/>
+      <circle cx="106" cy="150" r="4" fill="#81c784"/>
+    </g>
+  </g>
+</svg>

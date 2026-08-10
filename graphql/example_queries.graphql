@@ -1,0 +1,20 @@
+# Example query for Hasura/PostGraphile-style GraphQL layers.
+# Returns playbooks and the roles/collections they use.
+query PlaybooksWithUsedRolesAndCollections {
+  v_playbook_usage(
+    order_by: [
+      { repository: asc }
+      { playbook: asc }
+      { used_type: asc }
+      { used_name: asc }
+    ]
+  ) {
+    repository
+    playbook
+    playbook_path
+    used_type
+    used_name
+    used_repository
+    dep_type
+  }
+}
